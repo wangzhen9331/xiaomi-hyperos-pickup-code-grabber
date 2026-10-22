@@ -1,0 +1,17 @@
+# ===== 签名密钥：绝不上传（泄露可被冒用签名） =====
+*.jks
+*.keystore
+
+# ===== 构建产物 =====
+build/
+dist/
+*.apk
+
+# 但保留发布成品
+!release/*.apk
+
+# ===== 系统 / 编辑器垃圾 =====
+.DS_Store
+Thumbs.db
+*.iml
+.idea/

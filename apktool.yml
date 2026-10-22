@@ -1,0 +1,25 @@
+version: 2.11.1
+apkFileName: 取件码助手_v4.6.3_signed.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  tag: null
+sdkInfo:
+  minSdkVersion: 28
+  targetSdkVersion: 34
+packageInfo:
+  forcedPackageId: 127
+  renameManifestPackage: null
+versionInfo:
+  versionCode: 463
+  versionName: 4.6.3
+sharedLibrary: false
+sparseResources: false
+compactEntries: false
+doNotCompress:
+- arsc
+- dex
+- jpg
+- png
+- so

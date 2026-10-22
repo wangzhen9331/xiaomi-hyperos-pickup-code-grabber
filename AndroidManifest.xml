@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="34" android:compileSdkVersionCodename="14" package="io.github.okaidev.pickupcode" platformBuildVersionCode="34" platformBuildVersionName="14">
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <application android:allowBackup="false" android:extractNativeLibs="false" android:icon="@mipmap/ic_launcher" android:label="取件码助手" android:supportsRtl="true">
+        <meta-data android:name="xposedmodule" android:value="true"/>
+        <meta-data android:name="xposeddescription" android:value="自动提取快递取件码，存入本 App 的 待取 / 已取 列表。离线版，无联网权限"/>
+        <meta-data android:name="xposedminversion" android:value="82"/>
+        <meta-data android:name="xposedscope" android:resource="@array/xposed_scope"/>
+        <provider android:authorities="io.github.okaidev.pickupcode.provider" android:exported="true" android:name="io.github.okaidev.pickupcode.TodoProvider"/>
+        <receiver android:exported="true" android:name="io.github.okaidev.pickupcode.SmsEventReceiver">
+            <intent-filter>
+                <action android:name="io.github.okaidev.pickupcode.action.ON_SMS"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:label="待取取件码" android:name="io.github.okaidev.pickupcode.PickupWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_info"/>
+        </receiver>
+        <receiver android:exported="false" android:name="io.github.okaidev.pickupcode.WidgetActionReceiver">
+            <intent-filter>
+                <action android:name="io.github.okaidev.pickupcode.action.WIDGET_DONE"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="io.github.okaidev.pickupcode.PickupWidgetService" android:permission="android.permission.BIND_REMOTEVIEWS"/>
+        <activity android:exported="true" android:name="io.github.okaidev.pickupcode.MainActivity" android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:label="自检与设置" android:name="io.github.okaidev.pickupcode.LauncherActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:exported="false" android:label="小部件设置" android:name="io.github.okaidev.pickupcode.WidgetSettingsActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:exported="false" android:name="io.github.okaidev.pickupcode.DonateActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:exported="false" android:label="用户自定义规则" android:name="io.github.okaidev.pickupcode.UserRulesActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:exported="false" android:label="一键链路测试" android:name="io.github.okaidev.pickupcode.ChainTestActivity" android:theme="@style/AppTheme.NoActionBar"/>
+    </application>
+</manifest>

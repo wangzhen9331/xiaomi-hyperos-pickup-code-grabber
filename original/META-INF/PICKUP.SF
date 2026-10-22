@@ -1,0 +1,134 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android)
+SHA-256-Digest-Manifest: tYSWKqDzvA5XHptbY6JnpjTpqOUm6ciOp6Ak3Ce3VK0=
+X-Android-APK-Signed: 2, 3
+
+Name: AndroidManifest.xml
+SHA-256-Digest: D/m5d2qRxd+pJDBo+ZB77vnumvLQf7j2pHHGEfdjFB0=
+
+Name: META-INF/com/android/build/gradle/app-metadata.properties
+SHA-256-Digest: gnrSpe0ChhJw5/+UBX9W8bjOyqbagbZqAu/xfrZeHjM=
+
+Name: assets/donate_alipay.jpg
+SHA-256-Digest: gY3ROZhBBo721mfUCQpbAChWHvEexR0Vr8Ca0Ky18QM=
+
+Name: assets/donate_wechat.png
+SHA-256-Digest: gzCAYYcihup1kqGcITcEADbB3LVl/GfBpJgiMA7BUEg=
+
+Name: assets/rules/rules.json
+SHA-256-Digest: ku6RCIUOys/VYniKXr1sOUE/LUU6rnm2xmsIln40bgY=
+
+Name: assets/sqlite3/lib/libandroid-support.so
+SHA-256-Digest: C4H1vbYsLIs28Q3pU3u4dpCwQOgb/2c4A0KI53xrX/s=
+
+Name: assets/sqlite3/lib/libc++_shared.so
+SHA-256-Digest: B55zL3J0xn1SQP5pOZ765Zhh64yJ0SLt7yS8/83gZ+M=
+
+Name: assets/sqlite3/lib/libncursesw.so.6
+SHA-256-Digest: 7LVaGDWMPI2dewcJk/82Zx1dbSfJqP/OQna9NtWnVvk=
+
+Name: assets/sqlite3/lib/libreadline.so.8
+SHA-256-Digest: H2f3ih5aGjKi30HU0yQfKBDzz9gaVXlxOxsdWrtIkVc=
+
+Name: assets/sqlite3/lib/libtinfo.so.6
+SHA-256-Digest: gGhzOk9T3xhFF/X/MAwq4w/iaR7VInFUmP2vM+6Zq90=
+
+Name: assets/sqlite3/lib/libz.so.1
+SHA-256-Digest: UwB1/gG7XtGA/mEd+D8Z+cJIRrKbGxx/uGfOTvRflMw=
+
+Name: assets/sqlite3/sqlite3
+SHA-256-Digest: VLapcZlpAdRx7SBgd7OwJL1JHmawsFe/BlpoKUpNOt0=
+
+Name: assets/xposed_init
+SHA-256-Digest: wrYAtL9mBsoCj8Sz9MNBX7/9cSIC+/kZvGQdRS55KaM=
+
+Name: classes.dex
+SHA-256-Digest: vdDYWbsvisGmEwpcovr10jsNjbw1DixoA1YIVqdATtc=
+
+Name: res/anim/slide_in_left.xml
+SHA-256-Digest: yvjvDjMuo0GFZLWoeesuOK/kZOOfcIUeEUmleQg4Gjg=
+
+Name: res/anim/slide_in_right.xml
+SHA-256-Digest: 89jg5PCfTr4Z+WCTj+39h7mfwKSN1X5XrNCN1cQ6d+0=
+
+Name: res/drawable/bg_btn_outline.xml
+SHA-256-Digest: X0wg4GvIMxMRkinlDOjXnBJEzNNANdbyAGCNqvC1qlI=
+
+Name: res/drawable/bg_btn_outline_gray.xml
+SHA-256-Digest: NhV2onbQFU6lPmI1alPqG8rhcRefEtSuaz7Cy3I8KsU=
+
+Name: res/drawable/bg_btn_primary.xml
+SHA-256-Digest: kEUyo8r6boCTRsjzC1zDJxJ89c72A9FRSMOiC/EaDNQ=
+
+Name: res/drawable/bg_card.xml
+SHA-256-Digest: Nr3xRAV/Eg2HzhKimRVuhJzb6fwRx7ogug10wNJvTsA=
+
+Name: res/drawable/bg_card_done.xml
+SHA-256-Digest: ZPzFuoC9YLfYy7tAhrbF9dDeBZJPyrxmvvKrsx3TS5w=
+
+Name: res/drawable/bg_chip.xml
+SHA-256-Digest: XSDyeyxCzz6nJ+KD75ftBIarhjqiqcEoe53xmsRAYRM=
+
+Name: res/drawable/bg_code.xml
+SHA-256-Digest: 6Br1npd0G0PprDwinNbOIrKZy6IvMUgE+q2h1HH4zro=
+
+Name: res/drawable/bg_code_done.xml
+SHA-256-Digest: t17VI6I0xXN9o1pPl8Q7073K6Txs3eXiQBMjCxuLmN4=
+
+Name: res/drawable/bg_danger.xml
+SHA-256-Digest: nyP5+Ak/v0U46vt2aKvBcFk4EibEAA5JtPftD3LhCMw=
+
+Name: res/drawable/bg_dialog_cancel.xml
+SHA-256-Digest: CUREGkPj9K/jomOFdmvIQ98qEIXls21FqoqwBQ/YmYA=
+
+Name: res/drawable/bg_dialog_ok.xml
+SHA-256-Digest: GLm/1R+vvggkhdiM5YMNzLU79oJ/4DB4dAy8oLPfhMY=
+
+Name: res/drawable/bg_dialog_round.xml
+SHA-256-Digest: qfm9JyMlejgHNcZj9uOkN38A+evK02eoDnqVL8GVe2s=
+
+Name: res/drawable/bg_input.xml
+SHA-256-Digest: A/frwOiTsBcJwLdL1ExAYYhANE2YOACT0ErAUfA/Zfw=
+
+Name: res/drawable/bg_tab_off.xml
+SHA-256-Digest: NfQKFXJXm6Y3np3QVQQKIvfnhwqMBL0epPQW7mrl2VY=
+
+Name: res/drawable/bg_tab_on.xml
+SHA-256-Digest: y+PRnjlGEqn/gry+AqxgxtBEc5uG52R6XzfqdqY7NuU=
+
+Name: res/drawable/ic_launcher_foreground.xml
+SHA-256-Digest: pZ6ZiaXuKFjGftyTwuzyYrwmvgT33ZfwUyKOIRJCn78=
+
+Name: res/layout/activity_main.xml
+SHA-256-Digest: 73iRXJIn/nYZiYNtv1Zt3dv0Eo3eo5F6R+vGTmSgo4w=
+
+Name: res/layout/activity_widget_settings.xml
+SHA-256-Digest: 7mhZVwKefSH+IIRR3hh9jWDBaSIkKbE3jlWBf8jdin4=
+
+Name: res/layout/dialog_confirm_delete.xml
+SHA-256-Digest: EZbiuYiFeIRnFtVCc7PCzaWDOkhEEKl3X5CnA4vZy4U=
+
+Name: res/layout/item_pickup.xml
+SHA-256-Digest: Fm2tMVph48bb1Cxw1D4AjOLr73H+rYjbXltHZF8GNAs=
+
+Name: res/layout/widget_item.xml
+SHA-256-Digest: NXsdg3TreO5ANJoWafwM++lDlKG412ZFBXjCg1bhxaE=
+
+Name: res/layout/widget_item_header.xml
+SHA-256-Digest: 0BqZEJSdt26IZhI7j470yzf36ir4RLw421cKrgscLoM=
+
+Name: res/layout/widget_layout.xml
+SHA-256-Digest: ax4/ZFctZ8gQ7P7kLFYTBcxIoWubYt/uvJv1wsJWHB8=
+
+Name: res/layout/widget_layout_empty.xml
+SHA-256-Digest: T028dhrZHtQQ++e9oeiQrZVrWlFbMSSIkmE2oDXqckA=
+
+Name: res/mipmap-anydpi/ic_launcher.xml
+SHA-256-Digest: O6P8/MZ55MamWXEFRq3UO27hPdA+m58LF223fIiwDoA=
+
+Name: res/xml/widget_info.xml
+SHA-256-Digest: fBooLfaluqO3/mPN2UqXgTKavMEjQ8crwt3Et1jl8RU=
+
+Name: resources.arsc
+SHA-256-Digest: 04hC7yU80/H7L6cDyobXU3fjqfVmemtiv23/2lpHFlo=
+

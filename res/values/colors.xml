@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="badge_orange">#ffff8a3d</color>
+    <color name="card">#ffffffff</color>
+    <color name="card_done">#fffbfcfe</color>
+    <color name="chip_bg">#fff2f5fa</color>
+    <color name="code_bg">#ffedf3ff</color>
+    <color name="code_bg_done">#fff5f7fa</color>
+    <color name="code_text">#ff2559d6</color>
+    <color name="code_text_done">#ff8b93a7</color>
+    <color name="divider">#ffeef1f6</color>
+    <color name="ic_launcher_background">#ff1e6fe8</color>
+    <color name="page_bg">#fff6f8fb</color>
+    <color name="primary">#ff3d7eff</color>
+    <color name="text_hint">#ffaab2c2</color>
+    <color name="text_main">#ff1a1d26</color>
+    <color name="text_sub">#ff8b93a7</color>
+    <color name="widget_divider">#33ffffff</color>
+    <color name="widget_shadow">#99000000</color>
+    <color name="widget_text">#ffffffff</color>
+    <color name="widget_text_hint">#b3ffffff</color>
+    <color name="widget_text_sub">#d9ffffff</color>
+    <color name="danger">#fff2564c</color>
+</resources>

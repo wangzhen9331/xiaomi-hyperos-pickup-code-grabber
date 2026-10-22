@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="box_code" />
+    <item type="id" name="btn_reset" />
+    <item type="id" name="btn_save" />
+    <item type="id" name="btn_settings" />
+    <item type="id" name="btn_toggle" />
+    <item type="id" name="btn_widget" />
+    <item type="id" name="et_tpl" />
+    <item type="id" name="hdr_count" />
+    <item type="id" name="hdr_hint" />
+    <item type="id" name="hdr_root" />
+    <item type="id" name="item_code" />
+    <item type="id" name="item_root" />
+    <item type="id" name="item_sub" />
+    <item type="id" name="list" />
+    <item type="id" name="sb_font" />
+    <item type="id" name="tab_done" />
+    <item type="id" name="tab_pending" />
+    <item type="id" name="tv_font" />
+    <item type="id" name="txt_carrier" />
+    <item type="id" name="txt_code" />
+    <item type="id" name="txt_code_hint" />
+    <item type="id" name="txt_empty" />
+    <item type="id" name="txt_source" />
+    <item type="id" name="txt_time" />
+    <item type="id" name="widget_body" />
+    <item type="id" name="widget_empty" />
+    <item type="id" name="widget_header" />
+    <item type="id" name="widget_hint" />
+    <item type="id" name="widget_list" />
+    <item type="id" name="widget_title" />
+    <item type="id" name="btn_clear_done" />
+    <item type="id" name="dlg_cancel" />
+    <item type="id" name="dlg_confirm" />
+    <item type="id" name="dlg_root" />
+</resources>

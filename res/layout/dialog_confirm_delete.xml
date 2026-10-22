@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/dlg_root" android:background="@drawable/bg_dialog_round" android:paddingTop="26.0dip" android:paddingBottom="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="18.0dip" android:paddingEnd="18.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/text_main" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="删除所有已取记录？" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/text_sub" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="将彻底删除所有已取取件码记录" android:lineSpacingExtra="3.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="22.0dip">
+        <Button android:textSize="15.0sp" android:textColor="@color/text_main" android:id="@id/dlg_cancel" android:background="@drawable/bg_dialog_cancel" android:layout_width="0.0dip" android:layout_height="46.0dip" android:minWidth="0.0dip" android:minHeight="0.0dip" android:text="取消" android:layout_weight="1.0" android:textAllCaps="false" android:stateListAnimator="@null" />
+        <Button android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/card" android:id="@id/dlg_confirm" android:background="@drawable/bg_dialog_ok" android:layout_width="0.0dip" android:layout_height="46.0dip" android:minWidth="0.0dip" android:minHeight="0.0dip" android:text="删除" android:layout_weight="1.0" android:textAllCaps="false" android:layout_marginStart="12.0dip" android:stateListAnimator="@null" />
+    </LinearLayout>
+</LinearLayout>
